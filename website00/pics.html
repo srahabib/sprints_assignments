@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/baguetteBox.min.css" />
+    <link rel="stylesheet" href="css/baguetteBox.css" />
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+  />
+
+    <title>Document</title>
+  </head>
+  <body class="gallaryBody">
+
+    <section class="header">
+      <a href="#"><img src="images/logo.png" class="logo" alt="logo" /></a>
+
+      <div>
+        <ul class="navbar">
+          <li><a href="index.html" id="neonText" class="active">Home</a></li>
+          <li><a href="Chapters.html" id="neonText">Chapters</a></li>
+          <li><a href="Contact.html" id="neonText">Contact</a></li>
+          <li>
+            <a href="Login.html" id="neonText">
+              <i class="fa fa-thin fa-cat"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <h6>cute pictures here</h6>
+    <div class="gallery">
+      <a href="images/catplaying.png" data-caption="Image caption">
+        <img src="images/catplaying.png" alt="First image" />
+      </a>
+      <a href="images/sleeping00.png" data-caption="Image caption">
+        <img src="images/sleeping00.png" alt="First image" />
+      </a>
+      <a href="images/family (1).png" data-caption="Image caption">
+        <img src="images/family (1).png" alt="First image" />
+      </a>
+      <a href="images/family (2).png" data-caption="Image caption">
+        <img src="images/family (2).png" alt="First image" />
+      </a>
+      <a href="images/grandma.png" data-caption="Image caption">
+        <img src="images/grandma.png" alt="First image" />
+      </a>
+      <a href="images/piano.png" data-caption="Image caption">
+        <img src="images/piano.png" alt="First image" />
+      </a>
+      <a href="images/sleeping03.jpg" data-caption="Image caption">
+        <img src="images/sleeping03.jpg" alt="First image" />
+      </a>
+      <a href="images/Stray-close-up-cat.png" data-caption="Image caption">
+        <img src="images/Stray-close-up-cat.png" alt="First image" />
+      </a>
+      <a href="images/wth.jpg" data-caption="Image caption">
+        <img src="images/wth.jpg" alt="First image" />
+      </a>
+      <a href="images/nails.png" data-caption="Image caption">
+        <img src="images/nails.png" alt="First image" />
+      </a>
+      <a href="images/cute.png" data-caption="Image caption">
+        <img src="images/cute.png" alt="First image" />
+      </a>
+      <a href="images/tv.png" data-caption="Image caption">
+        <img src="images/tv.png" alt="First image" />
+      </a>
+    <script src="script.js"></script>
+    <script src="js/baguetteBox.min.js" async></script>
+    <script src="js/baguetteBox.js" async></script>
+    <script>
+      window.addEventListener("load", function () {
+        baguetteBox.run(".gallery");
+      });
+    </script>
+  </body>
+</html>

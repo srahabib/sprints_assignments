@@ -1,0 +1,48 @@
+Inside The Wall
+Dead City
+The Flat
+The Slums
+Rooftops
+The Slums Part 2
+Dead End
+The Sewers
+Antvillage
+Midtown
+Jail
+Control Room
+
+
+@keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa,
+        0 0 150px #0fa;
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
+
+  #feature .fe-box:hover{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 230px rgb(86 151 214 / 10%), 0px 10px 30px #000, inset 0px 0px 6px rgb(0 183 255 / 16%);
+    transition: box-shadow 0.3s cubic-bezier(0.35, 0.08, 0, 1);
+
+
+}
+
+Stray Chapter 3 The Flat Code - 3748 (door unlock code)
+Stray Chapter 4 The Slums Code - 1283 (safe unlock code)
+Stray Chapter 6 The Slums Part 2 Code - 2511 (secret lab unlock code)
